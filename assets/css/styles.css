@@ -1,0 +1,195 @@
+:root {
+  --white-color: #FFFFFF;
+  --red-color:  #FC0D1B;
+  --brown-color: #A32C2E;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 3rem;
+  line-height: 3.45rem;
+  margin: 0;
+  background-color: var(--white-color);
+}
+
+.container {
+  margin: 0 0.8rem;
+}
+
+.mar-pad {
+  margin: 0;
+  padding: 0;
+}
+
+.no-list {
+  list-style: none;
+}
+
+.block {
+  display: block;
+}
+
+/* Home Page */
+.home-wrap {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+/* Header */
+.logo {
+  width: 10rem;
+  height: 10rem;
+}
+
+.logo-img {
+  max-width: 100%;
+}
+
+.text-logo {
+  margin-top: 2.5rem;
+  font-size: 3.2rem;
+  line-height: 3.7rem;
+  color: var(--white-color);
+  background-color: var(--red-color);
+  text-transform: uppercase;
+}
+
+/* Navbar */
+.navbar {
+  margin-top: 2.1rem;
+}
+
+.nav-item-link {
+  font-size: 2rem;
+  line-height: 2.3rem;
+  display: block;
+}
+
+/* Main */
+.main {
+  padding-top: 3.3rem;
+}
+
+/* Introduce */
+.introduce {
+  color: var(--white-color);
+  background-color: var(--brown-color);
+}
+
+.introduce-heading {
+  text-align: center;
+  font-size: 4rem;
+  line-height: 4.6rem;
+}
+
+.introduce-content {
+  text-align: justify;
+  margin: 3.4rem 0;
+}
+
+.introduce-img-wrap {
+  max-width: 60rem;
+}
+
+.introduce-img {
+  width: 100%;
+}
+
+/* Development history */
+.development-history {
+  margin-top: 2.7rem;
+  background-color: var(--brown-color);
+}
+
+.development-heading {
+  font-size: 4rem;
+  line-height: 4.6rem;
+  color: var(--white-color);
+  text-align: center;
+}
+
+.development-list-item {
+  color: var(--white-color);
+  font-size: 2.5rem;
+  line-height: 2.94rem;
+}
+
+.development-img-wrap {
+  max-width: 60rem;
+}
+
+.development-img {
+  width: 100%;
+}
+
+/* Price table */
+.price {
+  padding-top: 2.2rem;
+}
+
+.price-heading {
+  text-align: center;
+  font-size: 3.2rem;
+  line-height: 3.7rem;
+}
+
+.price-table {
+  margin-top: 2.2rem;
+  max-width: 90rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table-heading,
+.table-body {
+  height: 5.9rem;
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+.table-right-text {
+  text-align: right;
+}
+
+.table-center-text {
+  text-align: center;
+}
+
+
+/* News Page */
+.news-wrap {
+  background-color: gray;
+  padding-top: 3.32rem;
+  padding-bottom: 0.8rem;
+}
+
+.content-news {
+  width: 60%;
+  background-color: var(--white-color);
+}
+
+.news-heading {
+  text-align: center;
+  color: var(--brown-color);
+  font-size: 4rem;
+  line-height: 4.6rem;
+}
+
+.news-body {
+  font-size: 2rem;
+  line-height: 2.3rem;
+  margin-top: 3.32rem;
+}
+
+.news-img {
+  max-width: 100%;
+}
